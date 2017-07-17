@@ -2,8 +2,11 @@ from django.conf.urls import url
 from django.contrib import admin
 from . import views
 
+app_name = 'music'
+
 urlpatterns = [
 
+    # /music/
     url(r'^$', views.index, name='index'),
 
     # /music/<album_id>/
