@@ -2,3 +2,4 @@
 .DS_Store
 *.pyc
 workspace.xml
+.idea
